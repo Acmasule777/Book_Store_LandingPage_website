@@ -1,0 +1,1083 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Delius Swash Caps', cursive;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+
+.navigation{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    box-shadow: 0 0 10px rgb(35, 34, 34);
+    position: sticky;
+    top: 0;
+    background-color: white;
+}
+
+.nav-box{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.left-nav img{
+    width: 100px;
+    padding-right: 30px;
+}
+
+.left-nav a{
+    text-decoration: none;
+    padding-right: 70px;
+    color: rgb(12, 12, 12);
+    font-size: 20px;
+    font-family: 'Berkshire Swash', cursive;
+    
+}
+
+.banner{
+    width: 100%;
+   height: 100%;
+   padding-top: 30px;
+}
+
+
+.banner-img{
+    width: 100%;
+    height: 100%;
+}
+
+
+.banner-img img{
+    width: 100vw;
+    height: 90vh;
+
+}
+
+/* navigation section end */
+
+
+/* About Section Add */
+
+.About-section{
+    width: 100%;
+    height: 100%;
+    padding-top: 20px;
+    background-color: #fafafa;
+}
+
+.About-section h1{
+    font-size: 50px;
+    text-align: center;
+    padding: 100px 0px 0px 0px;
+    font-family: 'Berkshire Swash', cursive;
+    text-transform: uppercase;
+}
+
+.About-box{
+    width: 70%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 80px 30px;
+    margin-left: 200px;
+}
+
+.About-image{
+    width: 100%;
+    height: 100%;
+}
+
+.About-image img{
+    width: 500px;
+}
+
+.About-pyara{
+    width: 52%;
+    margin-right: 100px;
+}
+
+.About-pyara p{
+    font-size: 20px;
+    text-align: justify;
+}
+
+hr{
+    margin: 0 100px;
+}
+
+
+/* About section end */
+
+
+/* Book type section start */
+
+.Book-type{
+    width: 100%;
+    height: 100%;
+    padding-top: 20px;
+    border: 0px solid red;
+}
+
+.Book-type h1{
+    font-size: 50px;
+    text-align: center;
+    padding: 100px 0px 0px 0px;
+    font-family: 'Berkshire Swash', cursive;
+    text-transform: uppercase;
+}
+
+.type-box{
+    width: 65%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 80px 30px;
+    margin-left: 200px;
+    border: 0px solid red;
+}
+
+.type-image{
+    width: 100%;
+    height: 100%;
+}
+
+.type-image img{
+    width: 500px;
+}
+
+.type-name{
+    width: 90%;
+    line-height: 40px;
+    border-right: 5px solid rgb(5, 5, 5);
+    margin-left: 300px;
+   
+}
+
+
+.type-name h2{
+    font-size: 30px;
+    font-family: 'Berkshire Swash', cursive;
+}
+
+.type-name li{
+    font-size: 20px;
+}
+
+
+/* Book type section end */
+
+
+/* Readers section start */
+
+.Readers{
+    width: 100%;
+    height: 100%;
+    padding-top: 20px;
+    padding-bottom: 100px;
+    background-color: black;
+    
+}
+
+.Readers h1{
+    font-size: 50px;
+    text-align: center;
+    color: white;
+    padding: 100px 0px 0px 0px;
+    font-family: 'Berkshire Swash', cursive; 
+    text-transform: uppercase;         
+}
+
+.Readers-box{
+    width: 90%;
+    height: 90%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 50px;
+    margin-left: 50px;
+
+
+}
+
+.first-box{
+    width: 20%;
+    text-align: justify;
+    margin-right: 40px;
+    padding: 60px 20px;
+    background-color: aliceblue;
+    border-radius: 8px;
+    transition: .2s linear;
+}
+
+.first-box h3{
+    padding-top: 20px;
+    text-align: center;
+    font-family: 'Berkshire Swash', cursive;
+}
+
+.first-box:hover{
+    transform: scale(1.1);
+}
+
+.second-box{
+    width: 20%;
+    text-align: justify;
+    margin-right: 40px;
+    padding: 60px 20px;
+    background-color: aliceblue;
+    border-radius: 8px;
+    transition: .2s linear;
+
+
+}
+
+.second-box h3{
+    padding-top: 20px;
+    text-align: center;
+    font-family: 'Berkshire Swash', cursive;
+}
+
+.second-box:hover{
+    transform: scale(1.1);
+}
+
+.third-box{
+    width: 20%;
+    text-align: justify;
+    padding: 60px 20px;
+    background-color: aliceblue;
+    border-radius: 8px;
+    transition: .2s linear;
+}
+
+.third-box h3{
+    padding-top: 20px;
+    text-align: center;font-family: 'Berkshire Swash', cursive;
+}
+
+ .third-box:hover{
+    transform: scale(1.1);
+}
+
+
+/* Reader section end */
+
+/* Gallery */
+
+.Gallery{
+    width: 100%;
+    height: 100%;
+}
+
+.Gallery h1{
+    font-size: 50px;
+    text-align: center;
+    padding: 100px 0px 0px 0px;
+    font-family: 'Berkshire Swash', cursive;
+    text-transform: uppercase;
+}
+
+.Gallery-grid{
+    width: 1000px;
+    margin: 100px 250px;
+    border: 0px solid red;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-gap: 80px;
+}
+
+.box1{
+    width:100%;
+    height: 100%;
+    transition: .2s linear;
+}
+
+.box1:hover{
+    transform: scale(1.1);
+}
+
+.box1 img{
+    width: 230px;
+    height: 250px;
+}
+
+.box2{
+    width:100%;
+    height: 100%;
+    transition: .2s linear;
+}
+
+.box2:hover{
+    transform: scale(1.1);
+}
+
+.box2 img{
+    width: 230px;
+    height: 250px;
+}
+.box3{
+    width:100%;
+    height: 100%;
+    transition: .2s linear;
+}
+
+.box3:hover{
+    transform: scale(1.1);
+}
+
+.box3 img{
+    width: 200px;
+    height: 250px;
+}
+.box4{
+    width:100%;
+    height: 100%;
+    transition: .2s linear;
+}
+
+.box4:hover{
+    transform: scale(1.1);
+}
+
+.box4 img{
+    width: 230px;
+    height: 250px;
+}
+.box5{
+    width:100%;
+    height: 100%;
+    transition: .2s linear;
+}
+
+.box5:hover{
+    transform: scale(1.1);
+}
+
+.box5 img{
+    width: 230px;
+    height: 250px;
+}
+.box6{
+    width:100%;
+    height: 100%;
+    transition: .2s linear;
+}
+
+.box6:hover{
+    transform: scale(1.1);
+}
+
+.box6 img{
+    width: 200px;
+    height: 250px;
+}
+.box7{
+    width:100%;
+    height: 100%;
+    transition: .2s linear;
+}
+
+.box7:hover{
+    transform: scale(1.1);
+}
+
+.box7 img{
+    width: 230px;
+    height: 250px;
+    border: 1px solid black;
+}
+
+.box8{
+    width:100%;
+    height: 100%;
+    transition: .2s linear;
+}
+
+.box8:hover{
+    transform: scale(1.1);
+}
+
+.box8 img{
+    width: 230px;
+    height: 250px;
+}
+
+.box9{
+    width:100%;
+    height: 100%;
+    transition: .2s linear;
+}
+
+.box9:hover{
+    transform: scale(1.1);
+}
+
+.box9 img{
+    width: 200px;
+    height: 250px;
+}
+
+
+/* Gallery section end */
+
+/* contact section start */
+
+.contact{
+    width: 100%;
+    height: 100%;
+    background-color: white;
+    padding-bottom: 50px;
+    background-image:linear-gradient(black -100%, transparent), url(images/cb.jpg);
+    width: 100%;
+    height: auto;
+    background-size: cover;
+    
+
+}
+
+.contact-main{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    
+
+
+}
+
+.contact h1{
+    text-align: center;
+    font-size: 40px;
+    padding-top: 90px;
+    padding-bottom: 100px;
+    color: white;
+    text-transform: uppercase;
+    font-family: 'Berkshire Swash', cursive;
+
+}
+
+.contact-forms{
+    width: 100%;
+    height: 100%;
+    margin-right: 200px;
+    color: white;
+    font-weight: bold;
+    
+}
+
+.contact-forms input{
+    width: 500px;
+    padding: 10px;
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: transparent;
+   border: 2px solid whitesmoke;
+   outline: none;
+   
+}
+
+.contact-forms input:focus{
+    background: black;
+    color: white;
+}
+
+.contact-forms input:focus::placeholder{
+    color: white;
+}
+
+
+textarea{
+    width: 500px;
+    height: 100px;
+    padding: 10px;
+    background-color: transparent;
+    border: 2px solid white;
+    outline: none;
+    
+}
+
+textarea:focus{
+    background: black;
+    color: white;
+}
+
+textarea:focus::placeholder{
+    color: white;
+}
+
+
+
+.submit-botton button{
+    width: 100px;
+    outline: none;
+    border: none;
+    padding: 10px;
+    background-color: rgb(240, 96, 201);
+    border-radius: 8px;
+    cursor: pointer;
+    color: white;
+    
+}
+
+.contact-information{
+    width: 100%;
+    height: 100%;
+    padding-top: 25px;
+    margin-left: 300px;
+    color: white;
+}
+
+.contact-information h2{
+    padding-bottom: 30px;
+    font-family: 'Berkshire Swash', cursive;
+    
+}
+
+
+.Contact-icons{
+    padding-top: 30px;
+    color: rgb(255, 255, 255);
+
+}
+
+.Contact-icons i{
+    font-size: 25px;
+    padding-right: 25px;   
+}
+
+/* Contact section end */
+
+/* map section start */
+
+.map{
+    width: 100%;
+    height: 100%;
+    padding-top: 10px;
+}
+
+.map img{
+    width: 1523px;
+}
+
+/* map section end */
+
+@media (max-width: 768px){
+
+    .navigation{
+        width: 100%;
+        height: 50%;
+        display: flex;
+        align-items: center;
+        box-shadow: 0 0 10px rgb(35, 34, 34);
+        position: sticky;
+        top: 0;
+        background-color: white;
+    }
+
+    .left-nav img{
+        width: 50px;
+        padding-right: 10px;
+    }
+
+    .left-nav a{
+        text-decoration: none;
+        padding-right: 10px;
+        color: rgb(12, 12, 12);
+        font-size: 8px;
+        font-family: 'Berkshire Swash', cursive;
+        
+    }
+
+    .banner-img{
+        width: 100%;
+        height: 100%;
+    }
+    
+    
+    .banner-img img{
+        width: 100vw;
+        height: 30vh;
+        padding-left: 0px;
+    
+    }
+
+    .About-section{
+        width: auto;
+        height: 100%;
+        padding-top: 20px;
+        background-color: #fafafa;
+    }
+
+    .About-section h1{
+        font-size: 20px;
+        text-align: center;
+        padding: 20px 0px 0px 0px;
+        font-family: 'Berkshire Swash', cursive;
+        text-transform: uppercase;
+    }
+
+    .About-box{
+        width: 50%;
+        display: block;
+        
+    }
+    
+    .About-image{
+        width: 100%;
+        height: 100%;
+        margin-left: -200px;
+    }
+    
+    .About-image img{
+        width: 300px;
+        height: 30vh;
+      
+
+    }
+
+    .About-pyara{
+        width: 140%;
+        margin-left: -180px;
+    }
+    
+    .About-pyara p{
+        font-size: 15px;
+        text-align: justify;
+        padding-top: 20px;
+    }
+    
+    hr{
+        margin: 0 100px;
+    }
+
+    .Book-type{
+        width: 100%;
+        height: 100%;
+        padding-top: 20px;
+        border: 0px solid red;
+    }
+    
+    .Book-type h1{
+        font-size: 20px;
+        text-align: center;
+        padding: 50px 0px 0px 0px;
+        font-family: 'Berkshire Swash', cursive;
+        text-transform: uppercase;
+    }
+
+    .type-box{
+        width: 100%;
+        height: 100%;
+        display: block;
+        
+    }
+    
+    .type-image{
+        width: 100%;
+        height: 100%;
+        margin-left: -190px;
+    }
+    
+    .type-image img{
+        width: 300px;
+        padding-bottom: 50px;
+    }
+
+    .type-name{
+        width: 50%;
+        line-height: 30px;
+        border-right: 5px solid rgb(5, 5, 5);
+        margin-left: -130px;
+       
+    
+       
+    }
+    
+    
+    .type-name h2{
+        font-size: 25px;
+        font-family: 'Berkshire Swash', cursive;
+    }
+    
+    .type-name li{
+        font-size: 15px;
+    }
+
+    .Readers{
+        width: 100%;
+        height: 100%;
+        padding-top: 20px;
+        padding-bottom: 0px;
+        background-color: rgb(20, 18, 18);
+        
+    }
+    
+    .Readers h1{
+        font-size: 20px;
+        text-align: center;
+        color: white;
+        padding: 10px 0px 0px 0px;
+        font-family: 'Berkshire Swash', cursive; 
+        text-transform: uppercase;         
+    }
+    
+    .Readers-box{
+        width: 100%;
+        height: 100%;
+        display: block;
+        margin-left: 50px;
+        padding-bottom: 50px;
+    
+    
+    }
+
+    .first-box{
+        width: 60%;
+        text-align: justify;
+        margin-bottom: 50px;
+        padding: 30px 20px;
+        background-color: aliceblue;
+        border-radius: 8px;
+        transition: .2s linear;
+    }
+
+    .second-box{
+        width: 60%;
+        text-align: justify;
+        margin-bottom: 50px;
+        padding: 30px 20px;
+        background-color: aliceblue;
+        border-radius: 8px;
+        transition: .2s linear;
+    }
+
+    .third-box{
+        width: 60%;
+        text-align: justify;
+        margin-bottom: 50px;
+        padding: 30px 20px;
+        background-color: aliceblue;
+        border-radius: 8px;
+        transition: .2s linear;
+    }
+
+    .Gallery h1{
+        font-size: 20px;
+        text-align: center;
+        padding: 30px 0px 0px 0px;
+        font-family: 'Berkshire Swash', cursive;
+        text-transform: uppercase;
+    }
+    
+    .Gallery-grid{
+        width: 100%;
+        border: 0px solid red;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr;
+        margin-left: 20px;
+        grid-gap: 10px;
+    }
+
+    .box6 img,.box1 img,.box2 img,.box3 img,.box4 img,.box5 img,.box7 img,.box8 img,.box9 img{
+            width: 150px;
+            height: 200px;
+            padding-bottom: 30px;
+        }
+
+        .contact{
+            width: 100%;
+            height: 100%;
+            background-color: white;
+            padding-bottom: 20px;
+            background-image:linear-gradient(black -100%, transparent), url(images/cb.jpg);
+            height: auto;
+            background-size: cover;
+            
+        
+        }
+        
+        .contact-main{
+            width: 100%;
+            height: 100%;
+            display: block;
+        
+        }
+        
+        .contact h1{
+            text-align: center;
+            font-size: 20px;
+            padding-top: 20px;
+            padding-bottom: 30px;
+            color: white;
+            text-transform: uppercase;
+            font-family: 'Berkshire Swash', cursive;
+        
+        }  
+        
+        .contact-forms{
+            width: 100%;
+            height: 100%;
+            margin-right: 0px;
+            color: white;
+            font-weight: bold;
+            margin-left: 70px;
+            padding-top: 20px;
+            
+        }
+        
+        .contact-forms input{
+            width: 200px;
+            padding: 10px;
+            margin-bottom: 10px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-color: transparent;
+           border: 2px solid whitesmoke;
+           outline: none;
+           
+        }
+
+        textarea{
+            width: 200px;
+            height: 100px;
+           
+            
+        }
+
+        .contact-information{
+            width: 100%;
+            height: 100%;
+            padding-top: 25px;
+            margin-left: 30px;
+            color: white;
+        }
+
+        .map{
+            
+            padding-top: 10px;
+        }
+        
+        .map img{
+            width: 400px;
+        }
+        
+
+}
+
+
+/* mobile media end */
+
+/* ipad or tablat media start 
+
+@media (max-width: 1023px){
+    .navigation{
+       margin-left: 0px;
+       width: 100%;
+    }
+
+    .left-nav a{
+        padding-right: 20px;
+        font-size: 20px;
+        
+    }
+
+    .banner-img img{
+        width: 100vw;
+        height: 40vh;
+        padding-left: 0px;
+    
+    }
+
+    .About-section h1{
+        font-size: 30px;
+        text-align: center;
+        padding: 20px 0px 0px 0px;
+        font-family: 'Berkshire Swash', cursive;
+        text-transform: uppercase;
+    }
+
+    .About-box{
+        width: 50%;
+        display: block;
+        
+    }
+    
+    .About-image{
+        width: 100%;
+        height: 100%;
+        margin-left: -140px;
+    }
+    
+    .About-image img{
+        width: 600px;
+        height: 30vh;
+      
+
+    }
+
+    .About-pyara{
+        width: 140%;
+        margin-left: -120px;
+    }
+    
+    .About-pyara p{
+        font-size: 15px;
+        text-align: justify;
+        padding-top: 20px;
+    }
+
+    .Book-type h1{
+        font-size: 30px;
+        text-align: center;
+        padding: 50px 0px 0px 0px;
+        font-family: 'Berkshire Swash', cursive;
+        text-transform: uppercase;
+    }
+
+    .type-box{
+        display: block;
+        
+    }
+    
+    .type-image{
+        margin-left: -100px;
+    }
+    
+    .type-image img{
+        width: 500px;
+        padding-bottom: 50px;
+    }
+
+    .type-name{
+        width: 50%;
+        line-height: 30px;
+        border-right: 5px solid rgb(5, 5, 5);
+        margin-left: 0px;
+       
+    
+       
+    }
+
+    .Readers h1{
+        font-size: 30px;
+        text-align: center;
+        color: white;
+        padding: 10px 0px 0px 0px;
+        font-family: 'Berkshire Swash', cursive; 
+        text-transform: uppercase;         
+    }
+
+    .first-box,.second-box,.third-box{
+        width: 30%;
+        text-align: justify;
+        margin-bottom: 50px;
+        padding: 30px 20px;
+        background-color: aliceblue;
+        border-radius: 8px;
+        transition: .2s linear;
+    }
+
+    .Gallery h1{
+        font-size: 30px;
+        text-align: center;
+        padding: 30px 0px 0px 0px;
+        font-family: 'Berkshire Swash', cursive;
+        text-transform: uppercase;
+    }
+
+    .Gallery-grid{
+        width: 100%;
+        border: 0px solid red;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: 1fr 1fr 1fr;
+        margin-left: 50px;
+        grid-gap: 10px;
+    }
+
+    .box6 img,.box1 img,.box2 img,.box3 img,.box4 img,.box5 img,.box7 img,.box8 img,.box9 img{
+            width: 150px;
+            height: 200px;
+            padding-bottom: 30px;
+        }
+
+        .contact h1{
+            text-align: center;
+            font-size: 30px;
+            padding-top: 20px;
+            padding-bottom: 30px;
+            color: white;
+            text-transform: uppercase;
+            font-family: 'Berkshire Swash', cursive;
+        
+        }  
+
+        .contact-main{
+            justify-content: center;
+            margin-left: 100px;
+        
+        
+        }
+        
+        .contact-forms{
+           padding-right: -120px;
+            padding-top: 20px;
+            padding-left: 50px;
+            
+        }
+        
+        .contact-forms input{
+            width: 300px;
+            padding: 10px;
+            margin-bottom: 10px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-color: transparent;
+           border: 2px solid whitesmoke;
+           outline: none;
+           
+        }
+
+        textarea{
+            width: 300px;
+            height: 100px;
+           
+            
+        }
+
+        .contact-information{
+            width: 100%;
+            height: 100%;
+            padding-top: 25px;
+            margin-left: 30px;
+            color: white;
+        }
+
+        .map{
+            
+            padding-top: 10px;
+        }
+        
+        .map img{
+            width: 775px;
+        }
+
+
+}
+
+*/
